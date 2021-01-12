@@ -1,0 +1,18 @@
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    .aboutMe-content{
+        display: flex;
+        justify-content: center;
+        box-sizing: content-box;
+        max-width: 300px;
+        .aboutMe-p{
+            text-align: center;
+            font-size: 20px;
+        }
+
+    }
+    
+}

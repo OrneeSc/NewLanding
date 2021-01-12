@@ -1,23 +1,17 @@
-// .footer {
-//     display: flex;
-//     align-items:center;
-//     justify-content: center;
-//     flex-wrap: wrap;
-//     flex-direction: row;
-//     margin-top: 100px;
-//     .footer-nav {
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         flex-direction: row;
-//         flex-wrap: wrap;
-//         text-decoration: none;
-//     }
-//         a{
-//             text-decoration: none;
-//             color: black;
-//             padding: 5px;
-//             font-family: 'Dosis', sans-serif;
-//             font-size: 18px;
-//         }
-// }
+.footer {
+    display: flex;
+    justify-content: center;    
+    height: 200px;
+    .footer-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        a{
+            text-decoration: none;
+            color: black;
+            padding: 5px;
+            font-family: 'Dosis', sans-serif;
+            font-size: 18px;
+        }
+}

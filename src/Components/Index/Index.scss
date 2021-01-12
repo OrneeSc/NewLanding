@@ -2,56 +2,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    font-family: 'Dosis', sans-serif;
     width: 100%;
-    height: 100vh;
-    margin-top: -35px;
-    .header{
-        .header-h1{
-            font-size: 40px;
-            color: black;
-            text-align: center; 
-            font-family: 'Sacramento', cursive;
-            margin: 10px;
-        }
-    }
-    .index-perfil{
+    height: 248px;
+    .index-content{
         display: flex;
+        justify-content: center;
+        box-sizing: content-box;
+        max-width: 300px;
         flex-direction: column;
-        align-items: center;
         .index-logo{
             max-width: 100px;
             border-radius: 50%;
-            margin: 15px;
             border: 5px solid rgba(231, 10, 202, 0.205);
         }   
             h2{
                 font-family: 'Dosis', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
-            }
-}
-    .footer {
-        display: flex;
-        align-items:center;
-        justify-content: center;
-        flex-wrap: wrap;
-        flex-direction: row;
-        margin-top: 100px;
-        .footer-nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            flex-wrap: wrap;
-            text-decoration: none;
-        }
-            a{
-                text-decoration: none;
-                color: black;
-                padding: 5px;
-                font-family: 'Dosis', sans-serif;
-                font-size: 18px;
             }
     }
     
