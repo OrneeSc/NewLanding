@@ -1,0 +1,13 @@
+import React from 'react';
+import './AboutMe.scss';
+
+const AboutMe = () => {
+    return (
+        <div>
+        <h1>AboutMe</h1>
+        
+        </div>
+    )
+}
+
+export default AboutMe;
