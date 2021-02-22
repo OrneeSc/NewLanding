@@ -1,8 +1,8 @@
 import React from 'react';
 import './Index.scss';
-// import Logo from './../Assets/foto.jpg';
 import emoji2 from '../Assets/emoji2.png';
-const Index = () => {
+
+const Index = ({isDark, setIsDark}) => {
 
     let title= 'Frontend Developer';
 
@@ -14,7 +14,10 @@ const Index = () => {
             </div>
             <div className='button-slider'>
                 <span>Modo oscuro</span>
-                <input type='checkbox' id='toggle' />
+                <input type='checkbox' id='toggle' 
+                className="DarkToggle"
+                checked={isDark}
+                onChange={event => setIsDark(event.target.checked)}/>
                     <label className='toggle-track' for='toggle'>
                         <span className='toggle-track__indicator'></span>
                     </label>

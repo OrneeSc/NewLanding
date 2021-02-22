@@ -6,7 +6,7 @@ const ContactMe = () => {
     return (
         <div className='contactMe'>
                 <img src={emoji3} alt='Perfil' className='contactMe-logo'></img>
-                <a href='http://www.gmail.com'>ornee.sci@gmail.com</a>
+                <a href='http://www.gmail.com'>ornee.sci@gmail.com</a>                
                 
         </div>
     )
