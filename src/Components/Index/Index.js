@@ -1,16 +1,24 @@
 import React from 'react';
 import './Index.scss';
-import Logo from './../Assets/foto.jpg';
+// import Logo from './../Assets/foto.jpg';
+import emoji2 from '../Assets/emoji2.png';
 import {Link} from 'react-router-dom'
 const Index = () => {
 
-    let title= 'Frontend Dev';
+    let title= 'Frontend Developer';
 
     return (
         <div className='index'>
             <div className='index-content'>
-                <img src={Logo} alt='Perfil' className='index-logo'></img>
+                <img src={emoji2} alt='Perfil' className='index-logo'></img>
                 <h2>{title}</h2>
+            </div>
+            <div className='button-slider'>
+                <span>Modo oscuro</span>
+                <input type='checkbox' id='toggle' />
+                    <label className='toggle-track' for='toggle'>
+                        <span className='toggle-track__indicator'></span>
+                    </label>
             </div>
 
         </div>

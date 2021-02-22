@@ -1,0 +1,15 @@
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+   .skills-logo {
+    max-width: 60px;
+    margin: 10px;
+        &:hover {
+        transform: scale(1.5);
+        z-index: 5;
+        }
+    }
+}

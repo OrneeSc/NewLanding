@@ -10,7 +10,7 @@ const Footer = () => {
 
                 <Link to="/Skills" className="skills"><a href="#">Skills</a></Link>
 
-                <Link to="/Proyects" className="proyects"><a href="#">Proyects</a></Link>
+                {/* <Link to="/Proyects" className="proyects"><a href="#">Proyects</a></Link> */}
 
                 <Link to="/ContactMe" className="contactMe"><a href="#">Contact me</a></Link>
             </nav>

@@ -1,17 +1,29 @@
 .footer {
     display: flex;
     justify-content: center;    
-    height: 200px;
+    margin-top: 60px;
+    height: 150px;
     .footer-nav {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        font-weight: 600;
+        a{
+            &:hover{
+                color: #10BAB9;;
+            }
+            &:focus{
+                font-weight: 600;
+                color: #10BAB9;;
+            }
+        }
     }
         a{
             text-decoration: none;
             color: black;
             padding: 5px;
             font-family: 'Dosis', sans-serif;
-            font-size: 18px;
+            font-size: 20px;
         }
 }

@@ -4,6 +4,7 @@
     align-items: center;
     font-family: 'Dosis', sans-serif;
     width: 100%;
+    flex-direction: column;
     height: 248px;
     .index-content{
         display: flex;
@@ -11,16 +12,53 @@
         box-sizing: content-box;
         max-width: 300px;
         flex-direction: column;
+        height: 200px;
+        margin-top: 70px;
         .index-logo{
-            max-width: 100px;
-            border-radius: 50%;
-            border: 5px solid rgba(231, 10, 202, 0.205);
+            max-width: 200px;
         }   
             h2{
                 font-family: 'Dosis', sans-serif;
                 font-size: 20px;
                 font-weight: 400;
+                margin-bottom: 100px;
+                text-align: center;
             }
+    }
+    .button-slider{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .toggle-track {
+            display: flex;
+            align-items: center;
+            padding: 0 3px;
+            width: 56px;
+            height: 30px;
+            border-radius: 15px;
+            background-color: #e7e7e7;;
+            cursor: pointer;
+            transition: 120ms ease-out;
+        }
+        .toggle-track__indicator{
+            width: 25px;
+            height: 25px;
+            border-radius: 100%;
+            background-color: #ffffff;
+            transition: 120ms ease-out;
+            margin-top: -1px;
+        }
+        #toggle:checked + .toggle-track{
+            background-color: #10BAB9;
+        }
+        #toggle:checked + .toggle-track .toggle-track__indicator{
+            transform: translateX(24px);
+        }
+        #toggle{
+            display: none;
+        }
     }
     
 }
