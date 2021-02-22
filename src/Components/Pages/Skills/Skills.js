@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './Skills.scss';
 import html from '../../Assets/html.png';
 import css from '../../Assets/css.png';

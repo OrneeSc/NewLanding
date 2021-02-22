@@ -2,7 +2,6 @@ import React from 'react';
 import './Index.scss';
 // import Logo from './../Assets/foto.jpg';
 import emoji2 from '../Assets/emoji2.png';
-import {Link} from 'react-router-dom'
 const Index = () => {
 
     let title= 'Frontend Developer';

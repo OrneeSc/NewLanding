@@ -1,6 +1,5 @@
 import React from 'react';
 import './AboutMe.scss';
-import emoji1 from '../../Assets/emoji1.png';
 
 const AboutMe = () => {
 
