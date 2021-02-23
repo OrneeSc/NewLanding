@@ -2,7 +2,7 @@ import React from 'react';
 import './Index.scss';
 import emoji2 from '../Assets/emoji2.png';
 
-const Index = ({isDark, setIsDark}) => {
+const Index = () => {
 
     let title= 'Frontend Developer';
 
@@ -14,12 +14,9 @@ const Index = ({isDark, setIsDark}) => {
             </div>
             <div className='button-slider'>
                 <span>Modo oscuro</span>
-                <input type='checkbox' id='toggle' 
-                className="DarkToggle"
-                checked={isDark}
-                onChange={event => setIsDark(event.target.checked)}/>
+                <input type='checkbox' id='toggle' className="DarkToggle"/>
                     <label className='toggle-track' for='toggle'>
-                        <span className='toggle-track__indicator'></span>
+                        <div className='toggle-track__indicator'></div>
                     </label>
             </div>
 

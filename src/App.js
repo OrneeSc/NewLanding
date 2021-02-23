@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.scss';
 import Index from './Components/Index/Index';
 import AboutMe from './Components/Pages/AboutMe/AboutMe';
@@ -14,8 +14,6 @@ import {
 } from 'react-router-dom';
 
 const App = ({props}) => {
-
-  const [isDark, setIsDark] = useState(true);
 
   return (
     <div className='body'>
