@@ -1,4 +1,4 @@
-import React from 'react';
+import {useState} from 'react';
 import './App.scss';
 import Index from './Components/Index/Index';
 import AboutMe from './Components/Pages/AboutMe/AboutMe';
@@ -13,17 +13,19 @@ import {
   Route,
 } from 'react-router-dom';
 
-const App = ({props}) => {
+const App = () => {
+
+  const [changeColor, setChangeColor] = useState(false);
 
   return (
-    <div className='body'>
+    <div className={changeColor ? 'darkColor' : null}>
       
       <BrowserRouter>
-        <Header />
+        <Header changeColor={changeColor} />
         <Switch>   
 
           <Route exact path="/">
-            <Index />
+            <Index setChangeColor={setChangeColor} changeColor={changeColor}/>
           </Route>   
 
           <Route exact path="/AboutMe">
@@ -44,7 +46,7 @@ const App = ({props}) => {
             
         </Switch>
 
-        <Footer/>
+        <Footer changeColor={changeColor}/>
     </BrowserRouter>
   </div>
   );
