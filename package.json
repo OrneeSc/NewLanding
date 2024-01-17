@@ -40,5 +40,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "My personal Web as Frontend Developer\r (last movements - january 2024)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrneeSc/NewLanding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrneeSc/NewLanding/issues"
+  },
+  "homepage": "https://github.com/OrneeSc/NewLanding#readme"
 }

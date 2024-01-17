@@ -5,7 +5,7 @@ import AboutMe from './Components/Pages/AboutMe/AboutMe';
 import Skills from './Components/Pages/Skills/Skills';
 import ContactMe from './Components/Pages/ContactMe/ContactMe';
 import Header from './Components/Header/Header';
-// import Proyects from './Components/Pages/Proyects/Proyects';
+import Proyects from './Components/Pages/Proyects/Proyects';
 import Footer from './Components/Footer/Footer';
 import {
   BrowserRouter,
@@ -36,9 +36,9 @@ const App = () => {
             <ContactMe />
           </Route>
 
-          {/* <Route exact path="/Proyects">
+          <Route exact path="/Proyects">
             <Proyects />
-          </Route> */}
+          </Route>
 
           <Route exact path="/Skills">
             <Skills />
